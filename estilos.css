@@ -60,6 +60,9 @@ span{
 .card-body{
     padding: 15px;
 }
+.card-boddy{
+    padding: 200px 15px 15px 15px;
+}
 p{
     font-size: 16px;
 }

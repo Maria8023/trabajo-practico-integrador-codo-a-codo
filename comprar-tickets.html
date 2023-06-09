@@ -48,145 +48,111 @@
     </main>
     <!-- navbar fin -->
 
-    <!-- form precios inicia -->
-    <main>
 
-        <section class="container pt-section">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xl-7">
-
-                    <div class="row row-cols-1 row-cols-md-3 text-center">
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                                <div class="card-header py-3 text-white bg-primary border-primary">
-                                    <h4 class="my-0 fw-normal">Estudiante</h4>
-                                </div>
-                                <div class="card-body">
-                                    <p>Tienen un descuento</p>
-                                    <h3 class="card-title pricing-card-title">80%</h3>
-                                    <small class="fw-light text-muted mt-3">* Presentar documentación</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm border-info">
-                                <div class="card-header py-3 text-white bg-info border-info">
-                                    <h4 class="my-0 fw-normal">Trainee</h4>
-                                </div>
-                                <div class="card-body">
-                                    <p>Tienen un descuento</p>
-                                    <h3 class="card-title pricing-card-title">50%</h3>
-                                    <small class="fw-light text-muted mt-3">* Presentar documentación</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card mb-4 rounded-3 shadow-sm border-warning">
-                                <div class="card-header py-3 text-white bg-warning border-warning">
-                                    <h4 class="my-0 fw-normal">Junior</h4>
-                                </div>
-                                <div class="card-body">
-                                    <p>Tienen un descuento</p>
-                                    <h3 class="card-title pricing-card-title">15%</h3>
-                                    <small class="fw-light text-muted mt-3">* Presentar documentación</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h2 class="titulo-gral">Venta <span>Valor de ticket $200</span></h2>
-
-                    <form action="">
-                        <div class="row gx-2">
-                            <div class="col-md mb-3">
-                                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre"
-                                    id="nombre" required>
-                            </div>
-                            <div class="col-md mb-3">
-                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido"
-                                    id="apellido" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col mb-3">
-                                <input type="email" class="form-control" placeholder="Email" aria-label="Email"
-                                    id="mail" required>
-                            </div>
-                        </div>
-                        <div class="row gx-2">
-                            <div class="col-md mb-3">
-                                <label for="cantidadTickets" class="form-label">Cantidad</label>
-                                <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad"
-                                    id="cantidadTickets" min="1" required>
-                            </div>
-                            <div class="col-md mb-3">
-                                <label for="categoriaSelect" class="form-label">Categoría</label>
-                                <select class="form-select" aria-label="Categoría" id="categoriaSelect">
-                                    <option value="" selected>-- Seleccione --</option>
-                                    <option value="0">Sin Categoria</option>
-                                    <option value="1">Estudiante</option>
-                                    <option value="2">Trainee</option>
-                                    <option value="3">Junior</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="alert alert-primary mt-2 mb-4" role="alert">
-                            Total a pagar: $ <span id="totalPago" class="align-middle"></span>
-                        </div>
-                        <div class="row gx-2">
-                            <div class="col-md mb-3">
-                                <button type="reset" class="w-100 btn btn-lg btn-form" id="btnBorrar">Borrar</button>
-                            </div>
-                            <div class="col-md mb-3">
-                                <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-    </main>
-    <!-- form precios fin -->
-
-        <!--footer inicia -->
-        <footer id="main-footer">
-            <div class="container">
-                <ul class="nav justify-content-center justify-content-lg-between align-items-center" id="listafooter">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Preguntas <br> frecuentes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Prensa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Conferencias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Términos y <br> condiciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Privacidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Estudiantes</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        footer fin -->
+     <!-- Cards descuento  -->
+     <div class="container fluid d-flex justify-content-center ">
+        <!--Card 1-->
+      <div class="card-group "  style="width: 46rem;">
+        <div class="card border border-primary text-center mx-1">
+          <div class="card-boddy">
+            <p class="card-text h4">Estudiante</p>
+            <p class="card-text">Tiene un descuento</p>
+            <p class="card-text"> <strong>80%</strong></p>
+            <p class="card-text text-muted"> <small> *presentar documentación</small></p>
+          </div>
+        </div>
+        <!--Card 2-->
+        <div class="card border border-success text-center mx-1" >
+          <div class="card-boddy">
+            <p class="card-text h4">Trainee</p>
+            <p class="card-text">Tiene un descuento</p>
+            <p class="card-text"> <strong>50%</strong></p>
+            <p class="card-text text-muted"><small> *presentar documentación</small></p>
+          </div>
+        </div>
+        <!--Card 3-->
+        <div class="card border border-warning text-center mx-1" >
+          <div class="card-boddy">
+            <p class="card-text h4">Junior</p>
+            <p class="card-text">Tiene un descuento</p>
+            <p class="card-text"> <strong>15%</strong></p>
+            <p class="card-text text-muted"><small> *presentar documentación</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Fin Cards descuento  -->
+  
+      
+      <div>
+        <p class="text-uppercase pt-2 mb-0 text-center">
+          <small>venta</small>
+        </p>
+        <p class="h3 text-uppercase text-center">valor de ticket $200</p>
+      </div>
+      
+  
+  
+       <!-- Formulario  -->
+   
+      <div class="container-fluid col-9">
+      <form class="row g-3" id="compraEntradas">
         
-        <script src="script.js"></script>
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="inputNombre" placeholder="Nombre"  aria-label="Nombre" >
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="inputApellido" placeholder="Apellido"  aria-label="Apellido">
+        </div>
+        <div class="col-12">
+          <input type="email" class="form-control" id="inputEmail" placeholder="Correo" aria-label="Correo">
+        </div>
+        
+        <div class="col-md-6">
+          <label for="inputCantidad" class="form-label">Cantidad</label>
+          <input type="text" class="form-control" id="inputCantidad" placeholder="cantidad">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCategoria" class="form-label">Categoría</label>
+          <select id="inputCategoria" class="form-select" >
+            <option selected>Estudiante</option>
+            <option>Trainee</option>
+            <option>Junior</option>
+            <option>General</option>
+          </select>
+        </div>
     
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-        </script>
-    </body>
-    
-    </html>
+        <div class="alert alert-primary " role="alert" >
+          <p class="mb-0" id="importeTotal">Total a Pagar: $</p>
+        </div>
+        
+        <div class="col">
+            <button class="btn btn-success col-sm-12  botonEnviar" type="button" id="btnBorrar" onclick="borrar();">Borrar</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-success col-sm-12 botonEnviar" type="button" id="btnResumen"  onclick="calcularTotal();">Resumen</button>
+          </div>
+        </div>
+      
+      </form>
+    </div>
+  
+  
+      <!-- fin de Formulario  -->
+
+
+    <script src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+
+
+   
+
+</body>
+
+</html>
